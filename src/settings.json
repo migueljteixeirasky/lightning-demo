@@ -1,0 +1,23 @@
+{
+  "appSettings": {
+    "stage": {
+      "clearColor": "0xff000000",
+      "useImageWorker": true
+    },
+    "debug": false,
+    "backtracking": true
+  },
+  "platformSettings": {
+    "path": ".",
+    "showFps": false,
+    "showVersion": false,
+    "inspector": false,
+    "gcOnUnload": true,
+    "lazyCreate": true,
+    "lazyDestroy": true,
+    "reuseInstance": false,
+    "logRoute": true,
+    "imageServerUrl": "//cdn.metrological.com/image",
+    "proxyUrl": "//cdn.metrological.com/proxy"
+  }
+}

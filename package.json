@@ -1,0 +1,29 @@
+{
+  "author": "Lightning demo",
+  "name": "lightning-demo",
+  "description": "Lightning demo",
+  "private": "true",
+  "sideEffects": false,
+  "scripts": {
+    "start": "node --max-old-space-size=4096 node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "dependencies": {
+    "@lightningjs/core": "2.1.2",
+    "@lightningjs/sdk": "3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.11.5",
+    "@babel/plugin-transform-runtime": "7.11.5",
+    "@babel/preset-env": "7.11.5",
+    "babel-loader": "8.1.0",
+    "babel-plugin-transform-async-to-promises": "0.8.15",
+    "babel-preset-const-enum": "1.0.0",
+    "core-js": "3.6.5",
+    "ejs": "3.1.5",
+    "html-webpack-plugin": "4.3.0",
+    "url-loader": "4.1.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0",
+    "webpack": "4.43.0"
+  }
+}

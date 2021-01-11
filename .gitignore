@@ -1,0 +1,12 @@
+.cache
+.eslintcache
+build
+dist
+node_modules
+*.log
+.DS_Store
+cypress/results
+
+# Temporary
+config/auth.json
+certs
